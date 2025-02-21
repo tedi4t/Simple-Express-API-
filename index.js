@@ -10,6 +10,8 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
+
+
 let users = [];
 let posts = [];
 
