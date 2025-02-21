@@ -25,6 +25,8 @@ function authenticateToken(req, res, next) {
   });
 }
 
+
+
 // Route to register a new user
 app.post('/register', async (req, res) => {
   const { username, password } = req.body;
