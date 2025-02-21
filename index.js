@@ -13,8 +13,6 @@ app.use(cors());
 let users = [];
 let posts = [];
 
-
-
 // Middleware to check if the user is authenticated
 function authenticateToken(req, res, next) {
   const token = req.headers['authorization'];
